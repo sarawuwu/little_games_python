@@ -1,36 +1,9 @@
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
-
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
-
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
-
-
 # 加入random模組
-import random
+import random,art
+
 
 # 建立一個list
-total_list=[rock,paper,scissors]
+total_list=[art.rock,art.paper,art.scissors]
 
 # 先讓玩家輸入，而得到一個值
 player_num=int(input("請輸入0石頭、1布、2剪刀，其中一個數字 : "))
