@@ -44,7 +44,7 @@ while not end_of_game:
    
 
     
-    # print(f"{' '.join(display)}")
+    print(f"{' '.join(display)}")
 
 
 if "_" not in display:
